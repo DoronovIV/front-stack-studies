@@ -1,0 +1,22 @@
+# node
+**/node_modules/**
+**/dist/**
+**/.npm/**
+
+# ng
+**/.angular/**
+
+# vscode
+**/.vscode/**
+**/.vscode-test/**
+**/*.history
+
+# misc
+**/.eslingcache
+**/*.log*
+
+# specific
+**/data/*.json
+
+
+

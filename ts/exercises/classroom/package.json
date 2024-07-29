@@ -1,0 +1,22 @@
+{
+  "name": "exercises",
+  "version": "1.0.0",
+  "description": "Work in progress.",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc & babel ./dist/out-tsc --out-dir dist/out-babel --extensions .js",
+    "start": "\"npm run build\" & node dist/out-babel/index.js"
+  },
+  "author": "DoronovIV",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.24.9",
+    "@babel/node": "^7.24.8",
+    "@babel/preset-env": "^7.24.8",
+    "@faker-js/faker": "^8.4.1",
+    "@types/node": "^20.14.11",
+    "babel": "^6.23.0",
+    "typescript": "^5.5.3"
+  }
+}

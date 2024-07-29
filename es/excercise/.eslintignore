@@ -1,0 +1,6 @@
+**/*.spec.ts
+**/*.d.ts
+**/main.ts
+**/*/node_modules
+/.angular
+/dist

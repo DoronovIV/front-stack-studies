@@ -1,1 +1,1 @@
-# front-stack-studies
+# Frontend studies
